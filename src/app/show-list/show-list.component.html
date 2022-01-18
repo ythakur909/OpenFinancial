@@ -1,0 +1,11 @@
+<div *ngFor="let item of data; let i = index">
+  <span class="name">
+    {{ item.name }}
+  </span>
+  <span class="name">
+    {{ item.projectName }}
+  </span>
+  <span class="name"> {{ item.hour }}:{{ item.minute }}: </span>
+  <span *ngIf="item.second < 10">0</span>{{ item.second }}
+  <button (click)="onRemove(i)">Remove</button>
+</div>

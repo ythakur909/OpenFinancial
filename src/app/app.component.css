@@ -1,0 +1,15 @@
+.main {
+  width: 50%;
+}
+.text-input {
+  width: 400px;
+}
+
+.project {
+  margin-top: 20px;
+}
+.nav {
+  width: 200px;
+  height: auto;
+  display: flex;
+}
